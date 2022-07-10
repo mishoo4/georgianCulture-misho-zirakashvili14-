@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26098384287B175A00627251 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26098383287B175A00627251 /* ViewController.swift */; };
+		26098386287B179900627251 /* RegistrationPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26098385287B179900627251 /* RegistrationPageViewController.swift */; };
+		26098388287B17B100627251 /* DetailsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26098387287B17B100627251 /* DetailsPageViewController.swift */; };
+		264DB878287B35F300AFAB11 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264DB876287B35F300AFAB11 /* TableViewCell.swift */; };
+		264DB879287B35F300AFAB11 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 264DB877287B35F300AFAB11 /* TableViewCell.xib */; };
 		267EB19C287AF83800788454 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267EB19B287AF83800788454 /* AppDelegate.swift */; };
 		267EB19E287AF83800788454 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267EB19D287AF83800788454 /* SceneDelegate.swift */; };
-		267EB1A0287AF83800788454 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267EB19F287AF83800788454 /* ViewController.swift */; };
 		267EB1A3287AF83800788454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267EB1A1287AF83800788454 /* Main.storyboard */; };
 		267EB1A5287AF83900788454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 267EB1A4287AF83900788454 /* Assets.xcassets */; };
 		267EB1A8287AF83900788454 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267EB1A6287AF83900788454 /* LaunchScreen.storyboard */; };
@@ -36,10 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26098383287B175A00627251 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26098385287B179900627251 /* RegistrationPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationPageViewController.swift; sourceTree = "<group>"; };
+		26098387287B17B100627251 /* DetailsPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPageViewController.swift; sourceTree = "<group>"; };
+		264DB876287B35F300AFAB11 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		264DB877287B35F300AFAB11 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		267EB198287AF83800788454 /* georgianCulture(misho zirakashvili14).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "georgianCulture(misho zirakashvili14).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		267EB19B287AF83800788454 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		267EB19D287AF83800788454 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		267EB19F287AF83800788454 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		267EB1A2287AF83800788454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		267EB1A4287AF83900788454 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		267EB1A7287AF83900788454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -100,8 +108,10 @@
 			isa = PBXGroup;
 			children = (
 				267EB19B287AF83800788454 /* AppDelegate.swift */,
+				269CFDC9287B13E40048BAA7 /* ViewControllers */,
 				267EB19D287AF83800788454 /* SceneDelegate.swift */,
-				267EB19F287AF83800788454 /* ViewController.swift */,
+				264DB876287B35F300AFAB11 /* TableViewCell.swift */,
+				264DB877287B35F300AFAB11 /* TableViewCell.xib */,
 				267EB1A1287AF83800788454 /* Main.storyboard */,
 				267EB1A4287AF83900788454 /* Assets.xcassets */,
 				267EB1A6287AF83900788454 /* LaunchScreen.storyboard */,
@@ -125,6 +135,16 @@
 				267EB1BE287AF83A00788454 /* georgianCulture_misho_zirakashvili14_UITestsLaunchTests.swift */,
 			);
 			path = "georgianCulture(misho zirakashvili14)UITests";
+			sourceTree = "<group>";
+		};
+		269CFDC9287B13E40048BAA7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				26098383287B175A00627251 /* ViewController.swift */,
+				26098387287B17B100627251 /* DetailsPageViewController.swift */,
+				26098385287B179900627251 /* RegistrationPageViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				267EB1A8287AF83900788454 /* LaunchScreen.storyboard in Resources */,
+				264DB879287B35F300AFAB11 /* TableViewCell.xib in Resources */,
 				267EB1A5287AF83900788454 /* Assets.xcassets in Resources */,
 				267EB1A3287AF83800788454 /* Main.storyboard in Resources */,
 			);
@@ -258,8 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				267EB1A0287AF83800788454 /* ViewController.swift in Sources */,
+				26098384287B175A00627251 /* ViewController.swift in Sources */,
 				267EB19C287AF83800788454 /* AppDelegate.swift in Sources */,
+				26098388287B17B100627251 /* DetailsPageViewController.swift in Sources */,
+				264DB878287B35F300AFAB11 /* TableViewCell.swift in Sources */,
+				26098386287B179900627251 /* RegistrationPageViewController.swift in Sources */,
 				267EB19E287AF83800788454 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
