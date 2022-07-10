@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		267EB19C287AF83800788454 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267EB19B287AF83800788454 /* AppDelegate.swift */; };
+		267EB19E287AF83800788454 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267EB19D287AF83800788454 /* SceneDelegate.swift */; };
+		267EB1A0287AF83800788454 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267EB19F287AF83800788454 /* ViewController.swift */; };
+		267EB1A3287AF83800788454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267EB1A1287AF83800788454 /* Main.storyboard */; };
+		267EB1A5287AF83900788454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 267EB1A4287AF83900788454 /* Assets.xcassets */; };
+		267EB1A8287AF83900788454 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267EB1A6287AF83900788454 /* LaunchScreen.storyboard */; };
+		267EB1B3287AF83A00788454 /* georgianCulture_misho_zirakashvili14_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267EB1B2287AF83A00788454 /* georgianCulture_misho_zirakashvili14_Tests.swift */; };
+		267EB1BD287AF83A00788454 /* georgianCulture_misho_zirakashvili14_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267EB1BC287AF83A00788454 /* georgianCulture_misho_zirakashvili14_UITests.swift */; };
+		267EB1BF287AF83A00788454 /* georgianCulture_misho_zirakashvili14_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267EB1BE287AF83A00788454 /* georgianCulture_misho_zirakashvili14_UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		267EB1AF287AF83A00788454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 267EB190287AF83800788454 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 267EB197287AF83800788454;
+			remoteInfo = "georgianCulture(misho zirakashvili14)";
+		};
+		267EB1B9287AF83A00788454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 267EB190287AF83800788454 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 267EB197287AF83800788454;
+			remoteInfo = "georgianCulture(misho zirakashvili14)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		267EB198287AF83800788454 /* georgianCulture(misho zirakashvili14).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "georgianCulture(misho zirakashvili14).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		267EB19B287AF83800788454 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		267EB19D287AF83800788454 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		267EB19F287AF83800788454 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		267EB1A2287AF83800788454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		267EB1A4287AF83900788454 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		267EB1A7287AF83900788454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		267EB1A9287AF83900788454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		267EB1AE287AF83A00788454 /* georgianCulture(misho zirakashvili14)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "georgianCulture(misho zirakashvili14)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		267EB1B2287AF83A00788454 /* georgianCulture_misho_zirakashvili14_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = georgianCulture_misho_zirakashvili14_Tests.swift; sourceTree = "<group>"; };
+		267EB1B8287AF83A00788454 /* georgianCulture(misho zirakashvili14)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "georgianCulture(misho zirakashvili14)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		267EB1BC287AF83A00788454 /* georgianCulture_misho_zirakashvili14_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = georgianCulture_misho_zirakashvili14_UITests.swift; sourceTree = "<group>"; };
+		267EB1BE287AF83A00788454 /* georgianCulture_misho_zirakashvili14_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = georgianCulture_misho_zirakashvili14_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		267EB195287AF83800788454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		267EB1AB287AF83A00788454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		267EB1B5287AF83A00788454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		267EB18F287AF83800788454 = {
+			isa = PBXGroup;
+			children = (
+				267EB19A287AF83800788454 /* georgianCulture(misho zirakashvili14) */,
+				267EB1B1287AF83A00788454 /* georgianCulture(misho zirakashvili14)Tests */,
+				267EB1BB287AF83A00788454 /* georgianCulture(misho zirakashvili14)UITests */,
+				267EB199287AF83800788454 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		267EB199287AF83800788454 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				267EB198287AF83800788454 /* georgianCulture(misho zirakashvili14).app */,
+				267EB1AE287AF83A00788454 /* georgianCulture(misho zirakashvili14)Tests.xctest */,
+				267EB1B8287AF83A00788454 /* georgianCulture(misho zirakashvili14)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		267EB19A287AF83800788454 /* georgianCulture(misho zirakashvili14) */ = {
+			isa = PBXGroup;
+			children = (
+				267EB19B287AF83800788454 /* AppDelegate.swift */,
+				267EB19D287AF83800788454 /* SceneDelegate.swift */,
+				267EB19F287AF83800788454 /* ViewController.swift */,
+				267EB1A1287AF83800788454 /* Main.storyboard */,
+				267EB1A4287AF83900788454 /* Assets.xcassets */,
+				267EB1A6287AF83900788454 /* LaunchScreen.storyboard */,
+				267EB1A9287AF83900788454 /* Info.plist */,
+			);
+			path = "georgianCulture(misho zirakashvili14)";
+			sourceTree = "<group>";
+		};
+		267EB1B1287AF83A00788454 /* georgianCulture(misho zirakashvili14)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				267EB1B2287AF83A00788454 /* georgianCulture_misho_zirakashvili14_Tests.swift */,
+			);
+			path = "georgianCulture(misho zirakashvili14)Tests";
+			sourceTree = "<group>";
+		};
+		267EB1BB287AF83A00788454 /* georgianCulture(misho zirakashvili14)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				267EB1BC287AF83A00788454 /* georgianCulture_misho_zirakashvili14_UITests.swift */,
+				267EB1BE287AF83A00788454 /* georgianCulture_misho_zirakashvili14_UITestsLaunchTests.swift */,
+			);
+			path = "georgianCulture(misho zirakashvili14)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		267EB197287AF83800788454 /* georgianCulture(misho zirakashvili14) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 267EB1C2287AF83A00788454 /* Build configuration list for PBXNativeTarget "georgianCulture(misho zirakashvili14)" */;
+			buildPhases = (
+				267EB194287AF83800788454 /* Sources */,
+				267EB195287AF83800788454 /* Frameworks */,
+				267EB196287AF83800788454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "georgianCulture(misho zirakashvili14)";
+			productName = "georgianCulture(misho zirakashvili14)";
+			productReference = 267EB198287AF83800788454 /* georgianCulture(misho zirakashvili14).app */;
+			productType = "com.apple.product-type.application";
+		};
+		267EB1AD287AF83A00788454 /* georgianCulture(misho zirakashvili14)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 267EB1C5287AF83A00788454 /* Build configuration list for PBXNativeTarget "georgianCulture(misho zirakashvili14)Tests" */;
+			buildPhases = (
+				267EB1AA287AF83A00788454 /* Sources */,
+				267EB1AB287AF83A00788454 /* Frameworks */,
+				267EB1AC287AF83A00788454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				267EB1B0287AF83A00788454 /* PBXTargetDependency */,
+			);
+			name = "georgianCulture(misho zirakashvili14)Tests";
+			productName = "georgianCulture(misho zirakashvili14)Tests";
+			productReference = 267EB1AE287AF83A00788454 /* georgianCulture(misho zirakashvili14)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		267EB1B7287AF83A00788454 /* georgianCulture(misho zirakashvili14)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 267EB1C8287AF83A00788454 /* Build configuration list for PBXNativeTarget "georgianCulture(misho zirakashvili14)UITests" */;
+			buildPhases = (
+				267EB1B4287AF83A00788454 /* Sources */,
+				267EB1B5287AF83A00788454 /* Frameworks */,
+				267EB1B6287AF83A00788454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				267EB1BA287AF83A00788454 /* PBXTargetDependency */,
+			);
+			name = "georgianCulture(misho zirakashvili14)UITests";
+			productName = "georgianCulture(misho zirakashvili14)UITests";
+			productReference = 267EB1B8287AF83A00788454 /* georgianCulture(misho zirakashvili14)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		267EB190287AF83800788454 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					267EB197287AF83800788454 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					267EB1AD287AF83A00788454 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 267EB197287AF83800788454;
+					};
+					267EB1B7287AF83A00788454 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 267EB197287AF83800788454;
+					};
+				};
+			};
+			buildConfigurationList = 267EB193287AF83800788454 /* Build configuration list for PBXProject "georgianCulture(misho zirakashvili14)" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 267EB18F287AF83800788454;
+			productRefGroup = 267EB199287AF83800788454 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				267EB197287AF83800788454 /* georgianCulture(misho zirakashvili14) */,
+				267EB1AD287AF83A00788454 /* georgianCulture(misho zirakashvili14)Tests */,
+				267EB1B7287AF83A00788454 /* georgianCulture(misho zirakashvili14)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		267EB196287AF83800788454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267EB1A8287AF83900788454 /* LaunchScreen.storyboard in Resources */,
+				267EB1A5287AF83900788454 /* Assets.xcassets in Resources */,
+				267EB1A3287AF83800788454 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		267EB1AC287AF83A00788454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		267EB1B6287AF83A00788454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		267EB194287AF83800788454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267EB1A0287AF83800788454 /* ViewController.swift in Sources */,
+				267EB19C287AF83800788454 /* AppDelegate.swift in Sources */,
+				267EB19E287AF83800788454 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		267EB1AA287AF83A00788454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267EB1B3287AF83A00788454 /* georgianCulture_misho_zirakashvili14_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		267EB1B4287AF83A00788454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267EB1BF287AF83A00788454 /* georgianCulture_misho_zirakashvili14_UITestsLaunchTests.swift in Sources */,
+				267EB1BD287AF83A00788454 /* georgianCulture_misho_zirakashvili14_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		267EB1B0287AF83A00788454 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 267EB197287AF83800788454 /* georgianCulture(misho zirakashvili14) */;
+			targetProxy = 267EB1AF287AF83A00788454 /* PBXContainerItemProxy */;
+		};
+		267EB1BA287AF83A00788454 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 267EB197287AF83800788454 /* georgianCulture(misho zirakashvili14) */;
+			targetProxy = 267EB1B9287AF83A00788454 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		267EB1A1287AF83800788454 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				267EB1A2287AF83800788454 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		267EB1A6287AF83900788454 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				267EB1A7287AF83900788454 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		267EB1C0287AF83A00788454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		267EB1C1287AF83A00788454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		267EB1C3287AF83A00788454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QWXSDUP35P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "georgianCulture(misho zirakashvili14)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tbcacademy.com.georgianCulture-misho-zirakashvili14-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		267EB1C4287AF83A00788454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QWXSDUP35P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "georgianCulture(misho zirakashvili14)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tbcacademy.com.georgianCulture-misho-zirakashvili14-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		267EB1C6287AF83A00788454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QWXSDUP35P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tbcacademy.com.georgianCulture-misho-zirakashvili14-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/georgianCulture(misho zirakashvili14).app/georgianCulture(misho zirakashvili14)";
+			};
+			name = Debug;
+		};
+		267EB1C7287AF83A00788454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QWXSDUP35P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tbcacademy.com.georgianCulture-misho-zirakashvili14-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/georgianCulture(misho zirakashvili14).app/georgianCulture(misho zirakashvili14)";
+			};
+			name = Release;
+		};
+		267EB1C9287AF83A00788454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QWXSDUP35P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tbcacademy.com.georgianCulture-misho-zirakashvili14-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "georgianCulture(misho zirakashvili14)";
+			};
+			name = Debug;
+		};
+		267EB1CA287AF83A00788454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QWXSDUP35P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tbcacademy.com.georgianCulture-misho-zirakashvili14-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "georgianCulture(misho zirakashvili14)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		267EB193287AF83800788454 /* Build configuration list for PBXProject "georgianCulture(misho zirakashvili14)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				267EB1C0287AF83A00788454 /* Debug */,
+				267EB1C1287AF83A00788454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		267EB1C2287AF83A00788454 /* Build configuration list for PBXNativeTarget "georgianCulture(misho zirakashvili14)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				267EB1C3287AF83A00788454 /* Debug */,
+				267EB1C4287AF83A00788454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		267EB1C5287AF83A00788454 /* Build configuration list for PBXNativeTarget "georgianCulture(misho zirakashvili14)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				267EB1C6287AF83A00788454 /* Debug */,
+				267EB1C7287AF83A00788454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		267EB1C8287AF83A00788454 /* Build configuration list for PBXNativeTarget "georgianCulture(misho zirakashvili14)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				267EB1C9287AF83A00788454 /* Debug */,
+				267EB1CA287AF83A00788454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 267EB190287AF83800788454 /* Project object */;
+}
